@@ -1,0 +1,44 @@
+POST
+http://localhost:9080/onlineshopping/Customer
+Create Customer Json
+{
+"fname":"Prajal",
+"lname":"Ramjiyani",
+"addressList":[{
+	"addressLine1":"5/5 Burns Ave",
+	"addressLine2":"Clayton South",
+	"city":"Melbourne",
+	"country":"Australia",
+	"postCode":3169
+	}],
+	"birthDate":"22-06-2019",
+	"emailAddress":"ramjiyaniprajal@gmail.com"
+	
+}
+
+{
+"fname":"Viral",
+"lname":"Shah",
+"addressList":[{
+	"addressLine1":"1/3 Melton Ave",
+	"addressLine2":"Clayton South",
+	"city":"Melbourne",
+	"country":"Australia",
+	"postCode":3169
+	},{
+	"addressLine1":"157 Power St",
+	"addressLine2":"Howthorn",
+	"city":"Melbourne",
+	"country":"Australia",
+	"postCode":3181
+	}],
+	"birthDate":"21-06-2019",
+	"emailAddress":"viralshah@gmail.com"
+	
+}
+
+
+GET
+http://localhost:9080/onlineshopping/Customer/1
+GET
+http://localhost:9080/onlineshopping/Customer
